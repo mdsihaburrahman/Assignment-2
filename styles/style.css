@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+
+
+
+/* li-color */
+.text-color-1{
+  color:orange;
+}
+.text-color-2{
+  color: rgb(135, 190, 235);
+}
+.text-color-3{
+  color: #05D4DF;
+}
+.text-color-4{
+  color:#5D58EF;
+}
+
+
+/* bag-size */
+.bag-size{
+  height: 62px;
+  width: 62px;
+  margin-top: 14px;
+  margin-right:5px;
+}
+.school{
+  font-size: 2rem;
+
+}
+
+/* dark-3 */
+.text-black{
+  color: black;
+}
+
+.bg-light{
+  background-color:rgba(255, 166, 0, 0);
+}
+
+
+.btn-primary{
+  background-color: black;
+  color: #FFFFFF;
+  padding: 10px 47px;
+  font-size: 1.25rem;
+  font-weight: 103px;
+  border-radius: 12px;
+  border: none;
+
+  
+
+}
+
+
+.btn-primary-1{
+  background-color: orange;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 11px 60px;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 500px;
+
+}
+
+/* navbar-styles */
+
+.navbar{
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.nav-item{
+  list-style: none;
+  margin-left: 32px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar{
+  max-width: 1160px;
+  margin: 0 auto;
+}
+/* banner-style */
+
+
+.hero-img{
+  width: 100%;
+}
+
+.font-width{
+  font-size: 3.5rem;
+  width: 640;
+}
+
+
+.banner-content{
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 103px;
+  margin-top: 20px;
+}
+.banner-description{
+  margin-bottom: 25px;
+}
+
+.banner{
+  display: flex;
+  max-width: 1158px;
+  height: 575px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+  
+}
+
+
+
+
+
+/* main-style */
+main{
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+
+main > section{
+  
+
+}
+
+
+
