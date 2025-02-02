@@ -366,5 +366,27 @@ main{
 
 }
 
+/* footer */
+footer{
+  background-color: #01ACFD;
+  height: 400px;
+}
+
+.kids-size{
+  color: #FFFFFF;
+  font-size: 2rem;
+  width: 800;
+}
+
+.marine-i{
+  margin-right: 1px;
+  padding: 4px;
+}
+
+.footer-part{
+  justify-content: space-around;
+  padding: 90px;
+  color: #FFFFFF;
+}
 
 
