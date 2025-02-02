@@ -291,8 +291,15 @@ main{
 
 
 .story-bg-color{
-  background-image:linear-gradient(to bottom, #FFFFFF, #fea10100, #fea10177, #fea10177 );
+  background-image:linear-gradient(to bottom, #FFFFFF, #fea10116, #fea10177, #fea10177 );
   height: 700px;
+}
+
+.font-style{
+  font-weight: 600;
+  color: #000000;
+  font-size: 0.9rem;
+  padding-left: 30px;
 }
 
 .story-1{
@@ -377,10 +384,10 @@ footer{
 
 /* section */
 
-section{
+/* section{
   max-width: 1160px;
   margin: 0 auto;
-}
+} */
 
 .marine-i{
   margin-right: 1px;
@@ -399,7 +406,91 @@ section{
 
 /* responsive  */
 @media screen and (max-width:576px) {
+  .navbar, .nav-link, .story-bg-color, .banner, .footer-part{
+    flex-direction: column;
+    height: auto;
+  }
+
+
+  .nav-link, .btn-primary-1, .school{
+    display: none;
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar{
+    justify-content: start;
+    align-items: start;
+  }
+
   
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .div-1{
+    display: none;
+  }
+
+  .div-2{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .stories{
+    margin-top: 0px;
+  }
+
+  footer{
+    height: 600px;
+  }
+  .medium-device{
+    margin-bottom: 20px;
+  }
+
+  .marine-para{
+    margin-bottom: 20px;
+  }
+
+
+  .margine-home{
+    margin-bottom: 10px;
+  }
+
+  .home{
+    margin-bottom: 5px;
+  }
+
+ 
+  .footer-part{
+    padding-left: 20px;
+  }
+
+  .banner{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .story-bg-color{
+    height: 1200px;
+    margin-bottom: 0px;
+  }
+  
+
+  .buttone{
+    justify-content: center;
+    align-items: center;
+    padding-left: 126px;
+  }
+
+  .hero-img{
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+
+  
+
 }
 
 
