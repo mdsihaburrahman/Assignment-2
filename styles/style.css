@@ -148,11 +148,6 @@ main{
 }
 
 
-/* main > section{
-  
-
-} */
-
 
 
 .standard-curriculum{
@@ -370,12 +365,21 @@ main{
 footer{
   background-color: #01ACFD;
   height: 400px;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
 .kids-size{
   color: #FFFFFF;
   font-size: 2rem;
   width: 800;
+}
+
+/* section */
+
+section{
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
 .marine-i{
@@ -387,6 +391,15 @@ footer{
   justify-content: space-around;
   padding: 90px;
   color: #FFFFFF;
+}
+
+
+
+
+
+/* responsive  */
+@media screen and (max-width:576px) {
+  
 }
 
 
